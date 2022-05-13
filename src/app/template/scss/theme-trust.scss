@@ -7,12 +7,12 @@
 @import '~@angular/material/theming';
 @include mat-core();
 // Define the default theme (same as the example above).
-$theme-trust-primary: mat-palette($mat-verde);
-$theme-trust-accent:  mat-palette($mat-azul);
-$theme-trust-theme:   mat-light-theme($theme-trust-primary, $theme-trust-accent);
+$theme-cha-primary: mat-palette($cha-verde);
+$theme-cha-accent:  mat-palette($cha-azul);
+$theme-cha-theme:   mat-light-theme($theme-cha-primary, $theme-cha-accent);
 
 // Include the default theme styles.
-@include angular-material-theme($theme-trust-theme);
+@include angular-material-theme($theme-cha-theme);
 
 
 // Define an alternate dark theme.
